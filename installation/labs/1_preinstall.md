@@ -12,6 +12,7 @@ sudo su<br>
 echo 1 > /proc/sys/vm/swappiness<br>
 <br>
 2. Show the mount attributes of your volume(s)<br>
+df<br>
 3. If you have ext-based volumes, list the reserve space setting XFS volumes do not support reserve space<br>
 4. Disable transparent hugepage support<br>
 5. List your network interface configuration<br>
