@@ -7,3 +7,6 @@ Connecting to AWS:
 3. Connect to AWS node using putty adding the private key <br>
 <br>
 System Configuration Checks<br>
+Setting Swappiness to 1<br>
+sudo su<br>
+echo 1 > /proc/sys/vm/swappiness
