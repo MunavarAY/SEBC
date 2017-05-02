@@ -18,6 +18,8 @@ df<br>
     echo never > /sys/kernel/mm/transparent_hugepage/enabled<br>
     cat /sys/kernel/mm/transparent_hugepage/enabled<br>
 5. List your network interface configuration<br>
+netstat -i<br>
+ip link show<br>
 6. Show correct forward and reverse host lookups<br>
    For /etc/hosts, use getentFor DNS, use nslookup<br>
 7. Show the nscd service is running<br>
