@@ -15,6 +15,8 @@ echo 1 > /proc/sys/vm/swappiness<br>
 df<br>
 3. If you have ext-based volumes, list the reserve space setting XFS volumes do not support reserve space<br>
 4. Disable transparent hugepage support<br>
+      echo never > /sys/kernel/mm/transparent_hugepage/enabled<br>
+       cat /sys/kernel/mm/transparent_hugepage/enabled<br>
 5. List your network interface configuration<br>
 6. Show correct forward and reverse host lookups<br>
    For /etc/hosts, use getentFor DNS, use nslookup<br>
